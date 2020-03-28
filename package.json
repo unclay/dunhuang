@@ -1,0 +1,33 @@
+{
+  "name": "dunhuang",
+  "version": "0.0.1",
+  "description": "模仿敦煌系统",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unclay/dunhuang.git"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "Clay <wcl58981298@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unclay/dunhuang/issues"
+  },
+  "homepage": "https://github.com/unclay/dunhuang#readme",
+  "devDependencies": {
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^5.0.0-beta.13",
+    "webpack-cli": "^3.3.11"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "dependencies": {}
+}
