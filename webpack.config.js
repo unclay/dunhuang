@@ -2,24 +2,27 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/index.ts',
+  entry: './src/index.tsx',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
-    extensions: ['.ts'],
+    extensions: ['.ts', '.tsx', '.js', 'jsx'],
   },
   module: {
     rules: [
       {
-        test: /.ts$/,
+        test: /.tsx?$/,
         oneOf: [
           {
-            loader: 'ts-loader'
-          }
-        ]
-      }
+            loader: 'ts-loader',
+          },
+          {
+            loader: 'babel-loader',
+          },
+        ],
+      },
     ],
   },
 };
