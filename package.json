@@ -4,7 +4,8 @@
   "description": "模仿敦煌系统",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "build:dll": "webpack --config webpack.dll.config.js"
   },
   "repository": {
     "type": "git",
