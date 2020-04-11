@@ -21,19 +21,6 @@
     "url": "https://github.com/unclay/dunhuang/issues"
   },
   "homepage": "https://github.com/unclay/dunhuang#readme",
-  "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "@babel/preset-react": "^7.9.4",
-    "@babel/preset-typescript": "^7.9.0",
-    "@types/react": "^16.9.27",
-    "@types/react-dom": "^16.9.5",
-    "babel-loader": "^8.1.0",
-    "ts-loader": "^6.2.2",
-    "typescript": "^3.8.3",
-    "webpack": "^5.0.0-beta.13",
-    "webpack-cli": "^3.3.11"
-  },
   "engines": {
     "node": ">=10.13.0"
   },
@@ -42,5 +29,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "browserslist": "> 0.25%, not dead"
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "webpack-dependencies": "file:packages/webpack-dependencies"
+  }
 }
