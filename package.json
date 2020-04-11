@@ -4,6 +4,7 @@
   "description": "模仿敦煌系统",
   "private": true,
   "scripts": {
+    "dev": "webpack-dev-server --env.NODE_ENV=development",
     "build": "webpack",
     "build:dll": "webpack --config webpack.dll.config.js"
   },
@@ -13,10 +14,11 @@
   },
   "keywords": [
     "react",
-    "webpack"
+    "webpack",
+    "typescript"
   ],
   "author": "Clay <wcl58981298@gmail.com>",
-  "license": "MIT",
+  "license": "ICS",
   "bugs": {
     "url": "https://github.com/unclay/dunhuang/issues"
   },
