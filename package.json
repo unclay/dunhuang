@@ -28,11 +28,13 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
+    "antd": "^4.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "browserslist": "> 0.25%, not dead",
   "devDependencies": {
+    "babel-plugin-import": "^1.13.0",
     "webpack-dependencies": "file:packages/webpack-dependencies"
   }
 }
